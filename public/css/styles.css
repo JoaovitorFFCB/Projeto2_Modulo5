@@ -68,3 +68,49 @@ h1{
     max-width: 29%;
     height: 75px;
 }
+
+
+
+
+
+/*FOOTER*/
+.info-footer{
+	display: block;
+	margin:0 50px 0 50px;
+}
+.info-footer-redes-socias{
+margin-left: 100px;
+}
+.container-fluid-footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.row-footer{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+@media screen and (max-width: 550px)   {
+	.container-fluid{
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.row-footer{
+		flex-direction: column;
+	
+	  }
+	  .info-footer-redes-socias{
+		margin-left: 0;
+	  }
+
+}
+.text-titulo-main{
+  color: #DA022D;
+}
+/* FIM FOOTER*/
